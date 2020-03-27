@@ -334,11 +334,11 @@ if __name__ == '__main__':
                         help='The path of loaded model')
 
     # transforms argument
-    parser.add_argument('--resize', type=int, default=320,
+    parser.add_argument('--resize', type=int, default=224,
                         help='size for resizing images')
 
     # CAM
-    parser.add_argument('--cam_size', type=int, default=320)
+    parser.add_argument('--cam_size', type=int, default=224)
     parser.add_argument('--generate_dir', type=str, default='cam')
 
     # Saved result
